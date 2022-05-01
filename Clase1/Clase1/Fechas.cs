@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ProgramacionPOO;
 
-namespace Clase1
+namespace ProgramacionPOO
 {
-    internal class Fecha
+    public class Fecha
     {
         private int _year;
         private int _month;
@@ -15,7 +11,7 @@ namespace Clase1
         public Fecha(int year, int mes, int dia)
         {
             _year = year;
-            _month = ValidarMes (mes);
+            _month = ValidarMes(mes);
             _day = Validardia(year, mes, dia);
         }
 
@@ -30,14 +26,14 @@ namespace Clase1
 
         private bool Isbiciestos(int year)
         {
-            return (year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0));
+            return year % 400 == 0 || year % 4 == 0 && year % 100 != 0;
         }
 
         private int ValidarMes(int mes)
         {
-            if (mes >=1 && mes <= 12)
+            if (mes >= 1 && mes <= 12)
                 return mes;
-            throw new MesError($"Mes: {_month}, Invalido");
+            throw new MesError($"Mes: {mes}, Invalido");
         }
 
         public override string ToString()

@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace Clase1
+namespace ProgramacionPOO
 {
     [Serializable]
     internal class MesError : Exception
