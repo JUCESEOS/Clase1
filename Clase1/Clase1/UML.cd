@@ -6,6 +6,7 @@
       <HashCode>EAACAAACAAAAAAAEAEAAAAAAAAAAAAIgAAAAAAAAAAA=</HashCode>
       <FileName>Empleados.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="ProgramacionPOO.EmpleadoAsalariado">
     <Position X="8.25" Y="2.75" Width="1.5" />
@@ -56,5 +57,12 @@
       <FileName>DiaError.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Interface Name="ProgramacionPOO.Ipay">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Ipay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

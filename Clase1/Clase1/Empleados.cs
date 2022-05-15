@@ -1,6 +1,6 @@
 ﻿namespace ProgramacionPOO
 {
-    public abstract class Empleados
+    public abstract class Empleados : Ipay 
     {
         public String Id { get; set; }
         public string Nombres { get; set; }

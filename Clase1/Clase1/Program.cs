@@ -67,7 +67,24 @@ foreach (Empleados Empleado in EMPELADOS)
 }
 
 Console.WriteLine($"\n\t                           ============================");
-Console.WriteLine($"\n\t  TOTAL A PAGAR.............:{$"{TotalNomina:C2}",18} ");
+Console.WriteLine($"\n\t  TOTAL A PAGAR.............:{$"{TotalNomina:C2}",18} \n\n\n");
+
+Invoice Factura1 = new Invoice()
+{
+    Desripsion = "Carne Posta",
+    Id = 1,
+    Precio = 16000M,
+    Cantidad = 5,
+};
+Invoice Factura2 = new Invoice()
+{
+    Desripsion = "Cogote",
+    Id = 2,
+    Precio = 13000M,
+    Cantidad = 13,
+};
+Console.WriteLine(Factura1);
+Console.WriteLine(Factura2);
 
 /*try
 
