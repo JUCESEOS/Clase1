@@ -1,6 +1,4 @@
-﻿using ProgramacionPOO;
-
-namespace ProgramacionPOO
+﻿namespace ProgramacionPOO
 {
     public class Fecha
     {
